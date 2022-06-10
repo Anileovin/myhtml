@@ -1,0 +1,48 @@
+/* types of styling 
+1. Inline styling means using the style attribute to style the line of code you are working on.
+2. Internal styling means styling with a style tag inside the code you are working on 
+3. External styling  means styling  outside the code you are working on
+ */
+/* THIS IS AN EXTERNAL CSS styling */
+          /* NOTE */
+/* In CSS we dont use inline */
+
+/* a comment */
+
+p{
+    /* this styling would affect all the statements embedded in the  p tag */
+    background-color: pink;
+    color: black;
+}
+/*use a hashtag for id  */
+#last-wow{  
+    font-size:40;
+    background-color: purple;
+    color: gold;
+}
+/* use dot a for class */
+.wo{
+    background-color: gold;
+    border: 5px blue solid;
+    color: black;
+    border-style: double;
+    border-width: 2px;
+    margin: 25px 50px 75px 100px; /* this is the space around border */
+    padding: 20px; /* this is the  space inside the border*/
+}
+.height_width{
+    height: 200px;
+    background-color: maroon;
+    
+}
+.hellop{
+    text-align: justify;
+    color: black;
+    background-color: grey;
+    text-decoration-color: blue ;
+    text-decoration-line: line-through;
+    /* or  */
+    text-decoration: red, dotted, line-through;
+    text-shadow: 1px 2px;
+}
+/* text can either be align to the left, right, center and justified */

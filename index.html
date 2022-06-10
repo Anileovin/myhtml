@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icon/favicon.ico">
+    <link rel="stylesheet" href="index.css">
+    <title>My SECOND DOC</title>
+    <!-- this is called and internal styling and  means using the style tag 
+     while external means styling outside your code-->
+
+     <!-- i commented this internal style below to style it with an external styling in "index.css"-->
+    <!-- <style>
+        p{
+            /* this styling would affect all the statements embedded in the  p tag */
+            background-color: pink;
+            color: black;
+        }
+        #last-wow{
+            font-size:40;
+            background-color: purple;
+            color: gold;
+        }
+        .wo{
+            background-color: gold;
+            color: black;
+        }
+
+
+    </style> -->
+    
+</head>
+<body>
+
+     <h1> html continues</h1>
+
+    <p> Hi! i'm Leo, you can click this link to go back to the homepage </p>
+    <a href="firsthtml.html">link back to homepage</a>
+<!-- href been used to redirect back to the homepage  -->
+<br>
+<br>
+
+<!-- inline level element takes just the space it requires -->
+<!-- span, image, video, anchor, audio, strong, bold, sub, super all formatting elements are inline by default -->
+
+<!-- <div> and <span> are both containers used for holds elements. 
+The are called semantic elements which are tags for storing elements(the dont do anything) -->
+<!-- footers, headers, asides, nav, article, p, (span is an inline semantic tag)  are all examples of semantic elements  -->
+
+
+<!-- this is an inline styling and it means using the style attribute  -->
+<a style="background-color: pink;"> hello vincent this</a>
+<br>
+
+<!-- the pink internal styling above would affect this paragraph below -->
+<p> hello vincent</p>
+
+<!-- block level element takes the whole line -->
+<!-- paragraph, footer, div, headers, footers, nav , all headings and head are block level elements by default -->
+<p style="background-color: grey;"> hello leo</p>
+<p style="background-color: tomato;"> hello leo</p>
+<!-- four way of specifying colour; rgb, hsl -hue saturation lightness, colour-name, hex-hexa decimal  -->
+
+<!-- for the styling -->
+<!-- <span id="last-wow"> WOW </span>
+<span id="last-wow"> WOW </span>
+<span id="last-wow"> WOW </span> -->
+<span id="last-wow"> WOW </span><br>
+<br>
+<!-- this below could be seen as a box model because the styling consist of the four box model features -->
+<span class="wo"> WOW </span><br><br> 
+<span class="height_width"> For height and width </span><br>
+<br>
+
+<!-- <span class="wo"> WOW </span>
+<span class="wo"> WOW </span>
+<span class="wo"> WOW </span> -->
+
+<span class="hellop"> Lorem ipsum dolor sit, 
+    amet consectetur adipisicing elit. 
+    Assumenda voluptatem voluptatibus, 
+    aperiam dolores quos laboriosam molestiae 
+    asperiores, dolorem animi accusantium, 
+    eos distinctio modi qui aliquid sunt
+     nihil ea ut cupiditate? </span>
+<h2>A Form</h2>
+<form> <!--this is used to surround everything in a form-->
+    <span>First Name: </span><input type="text" placeholder="firstname" required><br><br>
+
+    <span>Password: </span><input type="password"><br><br>
+
+    <span> Tel:</span><input type ="number" placeholder="phone number"><br><br>
+
+    <span> Email:</span><input type ="email" placeholder="name@mail.com"><br><br>
+
+    <span> Date:</span><input type ="date"><br><br>
+
+    <span> Search:</span><input type ="search"><br><br>
+
+    <input type ="radio" name="Gender" value="Male" > Male
+    <input type ="radio" name="Gender" value="Female" >Female<br><br>
+
+    <input type ="checkbox" name="health" value="fever" >fever
+    <input type ="checkbox" name="health" value="malaria" >malaria
+    <input type ="checkbox" name="health" value="headache" >headache<br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+
+    <input type="submit" value="login">
+
+<!-- select is used to create a drop down box -->
+    <select>
+        <option selected disabled label="countries">countries
+            <optgroup label="West African">
+                <option value=" Niger">Niger
+                <option value=" Nigeria">Nigeria
+                <option value=" ghana">ghana
+            </optgroup >
+
+            <optgroup label = "South African">
+                 <option value="south African">south African
+                 <option value="botwana">botwana
+                 <option value="nambia" >nambia
+                
+            </optgroup>
+        </option>
+    </select>
+
+</form>
+
+</body>
+</html>
